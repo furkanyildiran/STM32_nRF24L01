@@ -1,8 +1,6 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
- ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
- ../Core/Inc/stm32f0xx_hal_conf.h \
- ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
- ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h \
+nRF24L01/Src/nRF24L01.o: ../nRF24L01/Src/nRF24L01.c \
+ C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01.h \
+ C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01_config.h \
  ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h \
  ../Drivers/CMSIS/Include/core_cm0.h \
@@ -10,6 +8,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
+ ../Core/Inc/stm32f0xx_hal_conf.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h \
@@ -26,14 +28,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
- C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01.h \
- C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01_config.h \
  C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01_mnemonics.h
-../Core/Inc/main.h:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
-../Core/Inc/stm32f0xx_hal_conf.h:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h:
-../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h:
+C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01.h:
+C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01_config.h:
 ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h:
 ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h:
 ../Drivers/CMSIS/Include/core_cm0.h:
@@ -41,6 +38,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/CMSIS/Include/cmsis_compiler.h:
 ../Drivers/CMSIS/Include/cmsis_gcc.h:
 ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
+../Core/Inc/stm32f0xx_hal_conf.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h:
 ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h:
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h:
@@ -57,6 +58,4 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h:
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h:
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h:
-C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01.h:
-C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01_config.h:
 C:/Users/MONSTER/STM32CubeIDE/workspace_1.11.0/STM32_nRF24L01/nRF24L01/Inc/nRF24L01_mnemonics.h:
